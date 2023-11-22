@@ -74,8 +74,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.9622642, g: 0.031772893, b: 0.031772893, a: 1}
+  m_Sprite: {fileID: 21300000, guid: a30c734d32ec7a84e94feda9b93c4da3, type: 3}
+  m_Color: {r: 0.2399503, g: 0.9607843, b: 0.03137252, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -97,13 +97,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6871a844a0ce81d4bb2904e60e280ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
   speed: 0
   dashLenth: 0
-  healthPoints: 0
   baseAttack: 0
   baseAttackSpeed: 0
+  bAST: 0
   attackModifier: 0
+  dash: 0
+  pos: {x: 0, y: 0, z: 0}
   canMove: 0
   isMoving: 0
   hasMoved: 0
   canAttack: 0
+  enemyHP: 0
+  distance: 0
+  X: 0
+  Y: 0
